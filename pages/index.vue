@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        Firstnuxt
+        Project Management System
       </h1>
       <div class="links">
         <a
@@ -12,7 +12,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+       
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
