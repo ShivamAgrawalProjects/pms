@@ -1,23 +1,22 @@
 <template>
- <div class="container">
-        <header>Login Form</header>
-        <form>
-            <div class="input-field">
-                <input type="text" required>
-                <label>Email or Username</label>
-            </div>
-            <div class="input-field">
-                <input class="pswrd" type="password" required>
-                <span class="show">SHOW</span>
-                <label>Password</label>
-            </div>
-            <div class="button">
-                <div class="inner">
-                </div>
-                <button>LOGIN</button>
-            </div>
-        </form>
-        <!-- <div class="auth">
+  <div class="container">
+    <header>Login Form</header>
+    <form>
+      <div class="input-field">
+        <input type="text" required />
+        <label>Email or Username</label>
+      </div>
+      <div class="input-field">
+        <input class="pswrd" type="password" required />
+        <span class="show">SHOW</span>
+        <label>Password</label>
+      </div>
+      <div class="button">
+        <div class="inner"></div>
+        <button>LOGIN</button>
+      </div>
+    </form>
+    <!-- <div class="auth">
             Or login with</div>
         <div class="links">
             <div class="facebook">
@@ -26,11 +25,12 @@
             <div class="google">
                 <i class="fab fa-google-plus-square"><span>Google</span></i>
             </div>
-        </div> -->
-        <div class="signup">
-            Not a member? <a href="#">Signup now</a>
-        </div>
+    </div>-->
+    <div class="signup">
+      Not a member?
+      <a href="#">Signup now</a>
     </div>
+  </div>
 </template>
 
 <script>
@@ -53,65 +53,67 @@ export default {}
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
   border-radius: 5px;
   box-sizing: border-box;
 }
-body{
+body {
   height: 100vh;
   display: flex;
   align-items: center;
   text-align: center;
   font-family: sans-serif;
   justify-content: center;
-  /* background: url(bg.jpg); */
+  background: url(bg.jpg);
   background-size: cover;
   background-position: center;
 }
-.container{
+.container {
   position: relative;
   width: 400px;
   background: white;
   padding: 60px 40px;
 }
-header{
+header {
   font-size: 40px;
   margin-bottom: 60px;
   font-family: 'Montserrat', sans-serif;
 }
-.input-field, form .button{
+.input-field,
+form .button {
   margin: 25px 0;
   position: relative;
   height: 50px;
   width: 100%;
 }
-.input-field input{
+.input-field input {
   height: 100%;
   width: 100%;
   border: 1px solid silver;
   padding-left: 15px;
   outline: none;
   font-size: 19px;
-  transition: .4s;
+  transition: 0.4s;
 }
-input:focus{
-  border: 1px solid #1DA1F2;
+input:focus {
+  border: 1px solid #1da1f2;
 }
-.input-field label, span.show{
+.input-field label,
+span.show {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
-.input-field label{
+.input-field label {
   left: 15px;
   pointer-events: none;
   color: grey;
   font-size: 18px;
-  transition: .4s;
+  transition: 0.4s;
 }
-span.show{
+span.show {
   right: 20px;
   color: #111;
   font-size: 14px;
@@ -121,34 +123,40 @@ span.show{
   visibility: hidden;
   font-family: 'Open Sans', sans-serif;
 }
-input:valid ~ span.show{
+input:valid ~ span.show {
   visibility: visible;
 }
 input:focus ~ label,
-input:valid ~ label{
+input:valid ~ label {
   transform: translateY(-33px);
   background: white;
   font-size: 16px;
-  color: #1DA1F2;
+  color: #1da1f2;
 }
-form .button{
+form .button {
   margin-top: 30px;
   overflow: hidden;
   z-index: 111;
 }
-.button .inner{
+.button .inner {
   position: absolute;
   height: 100%;
   width: 300%;
   left: -100%;
   z-index: -1;
-  transition: all .4s;
-  background: -webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+  transition: all 0.4s;
+  background: -webkit-linear-gradient(
+    right,
+    #00dbde,
+    #fc00ff,
+    #00dbde,
+    #fc00ff
+  );
 }
-.button:hover .inner{
+.button:hover .inner {
   left: 0;
 }
-.button button{
+.button button {
   width: 100%;
   height: 100%;
   border: none;
@@ -200,16 +208,15 @@ form .button{
   padding-left: 8px;
   font-family: 'Open Sans', sans-serif;
 } */
-.signup{
+.signup {
   margin-top: 50px;
   font-family: 'Noto Sans', sans-serif;
 }
-.signup a{
+.signup a {
   color: #3498db;
   text-decoration: none;
 }
-.signup a:hover{
+.signup a:hover {
   text-decoration: underline;
 }
-
 </style>
