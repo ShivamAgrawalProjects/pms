@@ -6,35 +6,20 @@
       <i class="fas fa-times" id="cancel"></i>
     </label>
     <div class="sidebar">
-      <header>My Menu</header>
+      <header>PMSGI</header>
       <a href="#" class="active">
         <i class="fas fa-qrcode"></i>
         <span>Dashboard</span>
       </a>
       <a href="#">
         <i class="fas fa-link"></i>
-        <span>Shortcuts</span>
+        <span>Risk</span>
       </a>
       <a href="#">
         <i class="fas fa-stream"></i>
-        <span>Overview</span>
+        <span>Meeting</span>
       </a>
-      <a href="#">
-         <i class="fas fa-calendar"></i>
-        <span>Events</span>
-      </a>
-      <a href="#">
-        <i class="far fa-question-circle"></i>
-        <span>About</span>
-      </a>
-      <a href="#">
-        <i class="fas fa-sliders-h"></i>
-        <span>Services</span>
-      </a>
-      <a href="#">
-        <i class="far fa-envelope"></i>
-        <span>Contact</span>
-      </a>
+      
     </div>
  </div>
 </template>
