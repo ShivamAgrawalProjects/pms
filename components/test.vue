@@ -8,13 +8,13 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
       </li>
  <li class="nav-item active">
-        <a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Scrum Master <span class="sr-only">(current)</span></a>
       </li>
  <li class="nav-item active">
-        <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Logout <span class="sr-only">(current)</span></a>
       </li>
     </ul>
     <span class="navbar-text"></span>
