@@ -53,6 +53,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+
 }
 .sidebar{
   position: fixed;
@@ -61,6 +62,7 @@
   height: 100%;
   background: #1e1e1e;
   transition: all .5s ease;
+  margin-top: -25px;
 }
 .sidebar header{
   font-size: 28px;
@@ -113,6 +115,7 @@ label #btn,label #cancel{
   width: 45px;
   text-align: center;
   line-height: 45px;
+    margin-top: -12px;
   transition: all .5s ease;
 }
 label #cancel{
