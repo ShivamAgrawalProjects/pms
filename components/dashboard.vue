@@ -6,7 +6,7 @@
       <i class="fas fa-times" id="cancel"></i>
     </label>
     <div class="sidebar">
-      <header>PMSGI</header>
+      <header>PMS</header>
       <a href="#" class="active">
         <i class="fas fa-qrcode"></i>
         <span>Dashboard</span>
