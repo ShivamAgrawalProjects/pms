@@ -93,14 +93,14 @@ label #btn,label #cancel{
   color: white;
   border-radius: 5px;
   border: 1px solid #262626;
-  margin: 15px 30px;
+  /* margin: 15px 30px; */
   font-size: 29px;
   background: #262626;
   height: 45px;
   width: 45px;
   text-align: center;
   line-height: 45px;
-    margin-top: -12px;
+    margin-top: -65px;
   transition: all .5s ease;
 }
 label #cancel{
