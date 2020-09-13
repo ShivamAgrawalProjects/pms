@@ -88,19 +88,20 @@ a.active,a:hover{
   display: none;
 }
 label #btn,label #cancel{
-  position: absolute;
+  position: fixed;
   cursor: pointer;
   color: white;
   border-radius: 5px;
   border: 1px solid #262626;
-  /* margin: 15px 30px; */
+  margin: 5px;
   font-size: 29px;
   background: #262626;
   height: 45px;
   width: 45px;
   text-align: center;
   line-height: 45px;
-    margin-top: -65px;
+    margin-top: -60px;
+    
   transition: all .5s ease;
 }
 label #cancel{
@@ -111,12 +112,12 @@ label #cancel{
   left: 0;
 }
 #check:checked ~ label #btn{
-  margin-left: 245px;
+  /* margin-left: 245px; */
   opacity: 0;
   visibility: hidden;
 }
 #check:checked ~ label #cancel{
-  margin-left: 245px;
+  /* margin-left: 245px; */
   opacity: 1;
   visibility: visible;
 }
