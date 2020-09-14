@@ -1,13 +1,12 @@
 <template>
     <div>
-
-        <form>
+    <form class="form-inline">
            <div class="row">
-            <div class="col-10">
-                <input type="text"  placeholder="search">
+            <div class="col">
+                <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
             </div>
            <div class="col">
-            <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Create Project</button>
+            <button class=" btn btn-primary" >Create Projects</button>
            </div>
            </div>
         </form>
@@ -20,6 +19,9 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style>
+.search{
+    margin-left: 850px;
+}
 
 </style>

@@ -8,7 +8,8 @@
       </div>
       <div class="input-field">
         <input class="pswrd" type="password" required />
-        <span class="show">SHOW</span>
+        <span class="show" >SHOW</span>
+          <!-- @click="active" -->
         <label>Password</label>
       </div>
       <div class="button">
@@ -34,24 +35,52 @@
 </template>
 
 <script>
-export default {}
-//  var input = document.querySelector('.pswrd');
-//         var show = document.querySelector('.show');
-//         show.addEventListener('click', active);
-//         function active() {
-//             if (input.type === "password")
-            // {
-//                 input.type = "text";
-//                 show.style.color = "#1DA1F2";
-//                 show.textContent = "HIDE";
+export default {
+  // data(){
+  //   return{
+  //      input = document.querySelector('.pswrd'),
+  //     show = document.querySelector('.show'),
+  //     // show.addEventListener('click', active)
+  //    }
+  // },
+// methods:{
+//      active() {
+//             if (this.input.type === "password")
+//             {
+//                 this.input.type = "text",
+//                 this.show.style.color = "#1DA1F2",
+//                 this.show.textContent = "HIDE",
 //             }
 //            else 
-            //{
-//                 input.type = "password";
-//                 show.textContent = "SHOW";
-//                 show.style.color = "#111";
+//             {
+//                 this.input.type = "password",
+//                 this.show.textContent = "SHOW",
+//                 this.show.style.color = "#111"
 //             }
 //         }
+// }
+        
+}
+//  var input = document.querySelector('.pswrd');
+//         var show = document.querySelector('.show');
+
+       
+
+        // show.addEventListener('click', active);
+        // function active() {
+        //       if (input.type === "password")
+        //     {
+        //                       input.type = "text";
+        //         show.style.color = "#1DA1F2";
+        //         show.textContent = "HIDE";
+        //     }
+        //    else 
+        //     {
+        //         input.type = "password";
+        //         show.textContent = "SHOW";
+        //         show.style.color = "#111";
+        //     }
+        // }
 </script>
 
 <style>
