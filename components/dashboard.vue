@@ -5,9 +5,10 @@
       <i class="fas fa-bars" id="btn"></i>
       <i class="fas fa-times" id="cancel"></i>
     </label>
-    <div class="sidebar">
-      <header>PMS</header>
-      <a href="#" class="active">
+    <div class="sidebar" > 
+      <header >PMS</header>
+      <a href="#" >
+        <!-- class="active" -->
         <i class="fas fa-qrcode"></i>
         <span>Dashboard</span>
       </a>
@@ -19,6 +20,7 @@
         <i class="fas fa-stream"></i>
         <span>Meeting</span>
       </a>
+      
       
     </div>
  </div>
