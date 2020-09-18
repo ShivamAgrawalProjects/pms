@@ -2,6 +2,7 @@
     <div>
     <test  class="uppernavbar" />
     <dashboard />
+    
     <Nuxt />
     </div>
 </template>

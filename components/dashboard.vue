@@ -2,23 +2,25 @@
  <div>
    <input type="checkbox" id="check">
     <label for="check">
-      <i class="fas fa-bars" id="btn"></i>
-      <i class="fas fa-times" id="cancel"></i>
+      <i class="fa fa-bars" id="btn"></i>
+      <i class="fa fa-times" id="cancel"></i>
     </label>
-    <div class="sidebar">
-      <header>PMS</header>
-      <a href="#" class="active">
-        <i class="fas fa-qrcode"></i>
+    <div class="sidebar " > 
+      <header >PMS</header>
+      <a href="#" >
+        <!-- class="active" -->
+        <i class="active fa fa-qrcode "></i>
         <span>Dashboard</span>
       </a>
       <a href="#">
-        <i class="fas fa-link"></i>
+        <i class="fa fa-link"></i>
         <span>Risk</span>
       </a>
       <a href="#">
-        <i class="fas fa-stream"></i>
+        <i class="fa fa-sitemap"></i>
         <span>Meeting</span>
       </a>
+      
       
     </div>
  </div>
