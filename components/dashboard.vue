@@ -2,22 +2,22 @@
  <div>
    <input type="checkbox" id="check">
     <label for="check">
-      <i class="fas fa-bars" id="btn"></i>
-      <i class="fas fa-times" id="cancel"></i>
+      <i class="fa fa-bars" id="btn"></i>
+      <i class="fa fa-times" id="cancel"></i>
     </label>
-    <div class="sidebar" > 
+    <div class="sidebar " > 
       <header >PMS</header>
       <a href="#" >
         <!-- class="active" -->
-        <i class="fas fa-qrcode"></i>
+        <i class="active fa fa-qrcode "></i>
         <span>Dashboard</span>
       </a>
       <a href="#">
-        <i class="fas fa-link"></i>
+        <i class="fa fa-link"></i>
         <span>Risk</span>
       </a>
       <a href="#">
-        <i class="fas fa-stream"></i>
+        <i class="fa fa-sitemap"></i>
         <span>Meeting</span>
       </a>
       
@@ -36,6 +36,7 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+@import url('https://kit.fontawesome.com/a076d05399.js');
 *{
   margin: 0;
   padding: 0;

@@ -6,7 +6,7 @@
                 <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
             </div>
            <div class="col">
-            <button class=" btn btn-primary" >Schedule</button>
+            <nuxt-link to="/forms/meetingschedule"><button class=" btn btn-primary" >Schedule</button></nuxt-link>
            </div>
            </div>
         </form>
