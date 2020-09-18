@@ -1,7 +1,11 @@
 <template>
 
     <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
-       <button type="button" class="btn btn-outline-secondary">Previous</button>
+       <!-- <a href="#">
+        <i class="fa fa-link"></i>
+        <span>Risk</span>
+      </a> -->
+       <button type="button" class="btn btn-outline-secondary ">Previous</button>
           <form>
              
   <div class="form-row">

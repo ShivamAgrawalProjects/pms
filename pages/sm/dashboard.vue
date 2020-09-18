@@ -1,12 +1,12 @@
 <template>
-    <div>
+  <div>
     <form class="form-inline">
            <div class="row">
             <div class="col">
                 <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
             </div>
            <div class="col">
-            <button class=" btn btn-primary" ,v-on:click="createproject()">Create Projects</button>
+          <nuxt-link to="/forms/createproject" > <button class=" btn btn-primary">Create Projects</button></nuxt-link>
            </div>
            </div>
         </form>
@@ -25,8 +25,7 @@
 </script>
 
 <style>
-.search{
-    margin-left: 850px;
+.search {
+  margin-left: 850px;
 }
-
 </style>
