@@ -1,0 +1,75 @@
+<template>
+
+    <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
+       <button type="button" class="btn btn-outline-secondary">Previous</button>
+          <form>
+             
+  <div class="form-row">
+    <div class="form-group col-md-4">
+         
+         <label >Project Name:</label>
+    <input type="text" class="form-control" id="Project Name" placeholder="Project Name"> 
+      
+    </div>
+    <div class="form-group col-md-4">
+      <label >Project Type:</label>
+    <input type="text" class="form-control" id="Project Type" placeholder="Project Type">
+    </div>
+    
+    
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+         
+         <label for="ProjectOwne">Project Owner:</label>
+      <select id="ProjectOwner" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select> 
+      
+    </div>
+    <div class="form-group col-md-4">
+      <label for="TeamLead">Team Lead:</label>
+      <select id="TeamLead" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    
+    
+  </div>
+      <div class="form-row">
+    <div class="form-group col-md-8">
+    <label for="inputAddress">Description:</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Description">
+  </div>
+  </div>
+  <form>
+  <div class="form-group">
+  
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+</form>
+  
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+</template>
+
+<script>
+    export default {
+        layout: 'scrummasterlayout',
+        
+    }
+</script>
+
+<style >
+.container1{
+  
+  box-shadow: 500px 500px 5px lightgrey;
+  padding:40px;
+    text-align: center;
+
+}
+</style>
