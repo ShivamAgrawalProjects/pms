@@ -34,7 +34,7 @@
 
 </script>
 
-<style>
+<style >
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
 @import url('https://kit.fontawesome.com/a076d05399.js');
 *{

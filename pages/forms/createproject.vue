@@ -1,7 +1,11 @@
 <template>
 
     <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
-        <nuxt-link to="/sm/dashboard" ><button type="button" class="btn btn-outline-secondary">Previous</button></nuxt-link>
+      <div class="row">
+        <div class="col ">
+     <nuxt-link to="/sm/dashboard"><button type="button" class="btn btn-outline-secondary">Previous</button> </nuxt-link>
+     </div>
+      </div>
           <form>
              
   <div class="form-row">
@@ -21,10 +25,12 @@
   <div class="form-row">
     <div class="form-group col-md-4">
          
-         <label for="ProjectOwne">Project Owner:</label>
+         <label for="ProjectOwner">Project Owner:</label>
       <select id="ProjectOwner" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>Shivam</option>
+        <option>Rashi</option>
+        <option>Sumeet</option>
       </select> 
       
     </div>
@@ -32,7 +38,13 @@
       <label for="TeamLead">Team Lead:</label>
       <select id="TeamLead" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>Shivam</option>
+        <option>Rashi</option>
+        <option>Sumeet</option>
+        <option>Ajay</option>
+        <option>Harshu</option>
+        <option>Deepak</option>
+
       </select>
     </div>
     

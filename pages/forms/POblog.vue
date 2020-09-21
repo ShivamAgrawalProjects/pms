@@ -5,12 +5,12 @@
         <i class="fa fa-link"></i>
         <span>Risk</span>
       </a> -->
-      <nuxt-link to="/sm/meeting"> <button type="button" class="btn btn-outline-secondary ">Previous</button></nuxt-link>
+       <button type="button" class="btn btn-outline-secondary ">Back</button>
           <form>
              
   <div class="form-row">
     <div class="form-group col-md-8">
-      <label for="inputCity">Reason</label>
+      <label for="inputCity">Requirments:</label>
       <input type="text" class="form-control" id="inputReason">
     </div>
     
@@ -18,38 +18,39 @@
 
   <div class="form-row">
     <div class="form-group col-md-4">
-      <label >Date:</label>
+      <label >Start Date:</label>
       <input type="date" class="form-control" id="inputReason">
     </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">Time</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>Shivam</option>
-        <option>Rashi</option>
-        <option>Sumeet</option>
-      </select>
+     <div class="form-group col-md-4">
+      <label > End Date:</label>
+      <input type="date" class="form-control" id="inputReason">
     </div>
-  </div>
+     </div>
 
   <div class="form-row">
     <div class="form-group col-md-4">
-      <label for="inputState">Sprint</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>Shivam</option>
-        <option>Rashi</option>
-        <option>Sumeet</option>
-      </select>
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">Duration</label>
+      <label for="inputState">Priority</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
         <option>...</option>
       </select>
     </div>
+
+
+    
+    
+    <div class="form-group col-md-4">
+      <label for="inputState">Description</label>
+      <input type="text" class="form-control" id="inputReason">
+    </div>
   </div>
+
+  <form>
+  <div class="form-group">
+  
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+</form>
   
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
