@@ -67,9 +67,11 @@
 
     
     
+   <div class="form-row">
     <div class="form-group col-md-8">
-      <label for="inputState">Description</label>
+      <label for="inputCity">Description</label>
       <input type="text" class="form-control" id="inputReason">
+    </div>
     </div>
   
 
