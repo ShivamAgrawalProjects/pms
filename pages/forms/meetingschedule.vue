@@ -5,7 +5,7 @@
         <i class="fa fa-link"></i>
         <span>Risk</span>
       </a> -->
-       <button type="button" class="btn btn-outline-secondary ">Previous</button>
+       <nuxt-link to="/sm/meeting" ><button type="button" class="btn btn-outline-secondary ">Previous</button></nuxt-link>
           <form>
              
   <div class="form-row">

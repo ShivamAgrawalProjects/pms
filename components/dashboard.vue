@@ -7,16 +7,16 @@
     </label>
     <div class="sidebar " > 
       <header >PMS</header>
-      <a href="#" >
+      <a href="/sm/dashboard" >
         <!-- class="active" -->
         <i class="active fa fa-qrcode "></i>
         <span>Dashboard</span>
       </a>
-      <a href="#">
+      <a href="/sm/risk">
         <i class="fa fa-link"></i>
-        <span>Risk</span>
+        <span>Risk</span> 
       </a>
-      <a href="#">
+      <a href="/sm/meeting">
         <i class="fa fa-sitemap"></i>
         <span>Meeting</span>
       </a>

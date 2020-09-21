@@ -1,7 +1,7 @@
 <template>
 
     <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
-        <nuxt-link to="/sm/dashboard" ><button type="button" class="btn btn-outline-secondary">Previous</button></nuxt-link>
+        <nuxt-link to="" ><button type="button" class="btn btn-outline-secondary">Previous</button></nuxt-link>
           <form>
              
   <div class="form-row">
@@ -12,8 +12,11 @@
       
     </div>
     <div class="form-group col-md-4">
-      <label >Project Type:</label>
-    <input type="text" class="form-control" id="Project Type" placeholder="Project Type">
+       <label for="Project Type">Project Type:</label>
+      <select id="Project Type" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select> 
     </div>
     
     
@@ -21,20 +24,14 @@
   <div class="form-row">
     <div class="form-group col-md-4">
          
-         <label for="ProjectOwne">Project Owner:</label>
-      <select id="ProjectOwner" class="form-control">
+         <label for="RiskType">Risk Type:</label>
+      <select id="RiskType" class="form-control">
         <option selected>Choose...</option>
         <option>...</option>
       </select> 
       
     </div>
-    <div class="form-group col-md-4">
-      <label for="TeamLead">Team Lead:</label>
-      <select id="TeamLead" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
+    
     
     
   </div>
