@@ -20,7 +20,6 @@ export default {
           title: 'Student',
         
         },
-
         {
           href: '/student/myprofile',
           title: 'My Profile',
@@ -56,7 +55,6 @@ export default {
           title: 'Complain',
            icon:"fa fa-envelope"
         },
-         
       ],
     }
   },

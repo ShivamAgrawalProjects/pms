@@ -5,7 +5,7 @@
         <i class="fa fa-link"></i>
         <span>Risk</span>
       </a> -->
-       <button type="button" class="btn btn-outline-secondary ">Previous</button>
+      <nuxt-link to="/sm/meeting"> <button type="button" class="btn btn-outline-secondary ">Previous</button></nuxt-link>
           <form>
              
   <div class="form-row">
@@ -25,7 +25,9 @@
       <label for="inputState">Time</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>Shivam</option>
+        <option>Rashi</option>
+        <option>Sumeet</option>
       </select>
     </div>
   </div>
@@ -35,7 +37,9 @@
       <label for="inputState">Sprint</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
-        <option>...</option>
+        <option>Shivam</option>
+        <option>Rashi</option>
+        <option>Sumeet</option>
       </select>
     </div>
     <div class="form-group col-md-4">
