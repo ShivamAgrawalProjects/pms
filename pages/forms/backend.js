@@ -48,3 +48,17 @@ export const OwnerBacklog = [
     { t: "file", f: "OwnBackfile", id: "OwnBackfile", p: "OwnBackfile", l: "File"  }
    
 ]
+export const ScrumBacklog = [
+    { t: "input", f: "PartitionKey", id: "PartitionKey", p: "PartitionKey", l: "PartitionKey" },
+    { t: "input", f: "RowKey", id: "RowKey", p: "RowKey", l: "RowKey" },
+    { t: "input", f: "ScmBackreq", id: "scmBackreq", p: "Task", l: "Task" },
+    { t: "date", f: "sdate", id: "sdate", p: "StartDate", l: "StartDate"  },
+    { t: "date", f: "edate", id: "edate", p: "EndDate", l: "EndDate"  },
+    { t: "input", f: "scmsprint", id: "scmsprint", p: "Sprint", l: "Sprint"  },
+    { t: "input", f: "scmasgnto", id: "acmasgnto", p: "Assigned to", l: "assigned to"  },
+    { t: "input", f: "scmBackprio", id: "scmBackprio", p: "Priority", l: "Priority"  },
+    { t: "input", f: "scmsts", id: "scmsts", p: "status", l: "status"  },
+    { t: "input", f: "scmBackdesc", id: "scmBackdesc", p: "Description", l: "Description"  },
+    { t: "file", f: "scmBackfile", id: "scmBackfile", p: "scmBackfile", l: "File"  }
+   
+]
