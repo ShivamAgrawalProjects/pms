@@ -1,86 +1,31 @@
 <template>
-  <div class="container">
-    <header>Login Form</header>
-    <form>
-      <div class="input-field">
-        <input type="text" required />
-        <label>Email or Username</label>
-      </div>
-      <div class="input-field">
-        <input class="pswrd" type="password" required />
-        <span class="show" >SHOW</span>
-          <!-- @click="active" -->
-        <label>Password</label>
-      </div>
-      <div class="button">
-        <div class="inner"></div>
-       <nuxt-link to="/sm/dashboard" ><button>LOGIN</button></nuxt-link>
-      </div>
-    </form>
-    <!-- <div class="auth">
-            Or login with</div>
-        <div class="links">
-            <div class="facebook">
-                <i class="fab fa-facebook-square"><span>Facebook</span></i>
-            </div>
-            <div class="google">
-                <i class="fab fa-google-plus-square"><span>Google</span></i> 
-            </div>
-    </div>-->
-    <div class="signup">
-      Not a member?
-      <a href="#">Signup now</a>
-    </div>
+  <div>
+   <button @click="createtable()">Create Table</button>
+   <button @click="insertdata()">Insert Data</button>
+   <button @click="updatedata()">Update or Edit Data</button>
+
   </div>
 </template>
 
 <script>
+import axios from "axios"
 export default {
-  // data(){
-  //   return{
-  //      input = document.querySelector('.pswrd'),
-  //     show = document.querySelector('.show'),
-  //     // show.addEventListener('click', active)
-  //    }
-  // },
-// methods:{
-//      active() {
-//             if (this.input.type === "password")
-//             {
-//                 this.input.type = "text",
-//                 this.show.style.color = "#1DA1F2",
-//                 this.show.textContent = "HIDE",
-//             }
-//            else 
-//             {
-//                 this.input.type = "password",
-//                 this.show.textContent = "SHOW",
-//                 this.show.style.color = "#111"
-//             }
-//         }
-// }
-        
+  methods:{
+
+    async createtable(){
+      let res= await this.$axios.get('http://localhost:3000/api/createtable');
+      console.log(res);
+    },
+    async updatedata(){
+      let res= await this.$axios.get('http://localhost:3000/api/updatedata');
+      console.log(res);
+    },
+    async insertdata(){
+      let res= await this.$axios.get('http://localhost:3000/api/insertdata');
+      console.log(res);
+    }
+  }
 }
-//  var input = document.querySelector('.pswrd');
-//         var show = document.querySelector('.show');
-
-       
-
-        // show.addEventListener('click', active);
-        // function active() {
-        //       if (input.type === "password")
-        //     {
-        //                       input.type = "text";
-        //         show.style.color = "#1DA1F2";
-        //         show.textContent = "HIDE";
-        //     }
-        //    else 
-        //     {
-        //         input.type = "password";
-        //         show.textContent = "SHOW";
-        //         show.style.color = "#111";
-        //     }
-        // }
 </script>
 
 <style>

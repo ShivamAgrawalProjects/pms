@@ -16,11 +16,6 @@
 <script>
     export default {
         layout: 'scrummasterlayout',
-        methods:{
-            createprojects(){
-                
-            }
-        }
     }
 </script>
 

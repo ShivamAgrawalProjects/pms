@@ -7,31 +7,27 @@
     </label>
     <div class="sidebar " > 
       <header >PMS</header>
-      <a href="/sm/dashboard" >
+      <a href="#" >
         <!-- class="active" -->
         <i class="active fa fa-qrcode "></i>
         <span>Dashboard</span>
       </a>
-      <a href="/sm/risk">
+      <a href="#">
         <i class="fa fa-link"></i>
         <span>Risk</span> 
       </a>
-      <a href="/sm/meeting">
+      <a href="#">
         <i class="fa fa-sitemap"></i>
         <span>Meeting</span>
       </a>
-      
-      
     </div>
  </div>
 </template>
-
 <script>
     export default {
-        
+           
     }
     // <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
 </script>
 
 <style >
@@ -41,6 +37,8 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+     z-index: auto;
+
 
 }
 .sidebar{
@@ -51,6 +49,7 @@
   background: #1e1e1e;
   transition: all .5s ease;
   margin-top: -25px;
+
 }
 .sidebar header{
   font-size: 28px;
