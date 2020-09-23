@@ -5,7 +5,7 @@
         <i class="fa fa-link"></i>
         <span>Risk</span>
       </a> -->
-       <button type="button" class="btn btn-outline-secondary ">Back</button>
+       <button type="button" class="btn btn-outline-secondary "><i class="fa fa-caret-left"></i>  Back</button>
           <form>
              
   <div class="form-row">

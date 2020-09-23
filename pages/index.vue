@@ -1,23 +1,36 @@
 <template>
   <div>
- <button type="submit" class="btn btn-primary" @click="create">create table</button>
- <button type="submit" class="btn btn-primary" @click="insert">insert </button>
+   <button @click="createtable()">Create Table</button>
+   <button @click="insertdata()">Insert Data</button>
+   <button @click="updatedata()">Update or Edit Data</button>
+   <button @click="deletetable()">Delete Table</button>
+
   </div>
 </template>
 
 <script>
 import axios from "axios"
-  export default {
-    methods:{
-       async create() {
-     let res = await this.$axios.get('http://localhost:3000/api/createtable');
-     },
-   async insert() {
-     let res = await this.$axios.get('http://localhost:3000/api/createtable');
-    }
-    }
+export default {
+  methods:{
 
+    async createtable(){
+      let res= await this.$axios.get('http://localhost:3000/api/createtable');
+      console.log(res);
+    },
+    async deletetable(){
+      let res= await this.$axios.get('http://localhost:3000/api/deletetable');
+      console.log(res);
+    },
+    async updatedata(){
+      let res= await this.$axios.get('http://localhost:3000/api/updatedata');
+      console.log(res);
+    },
+    async insertdata(){
+      let res= await this.$axios.get('http://localhost:3000/api/insertdata');
+      console.log(res);
+    }
   }
+}
 </script>
 
 <style lang="scss" scoped>
