@@ -3,6 +3,7 @@
    <button @click="createtable()">Create Table</button>
    <button @click="insertdata()">Insert Data</button>
    <button @click="updatedata()">Update or Edit Data</button>
+   <button @click="deletetable()">Delete Table</button>
 
   </div>
 </template>
@@ -14,6 +15,10 @@ export default {
 
     async createtable(){
       let res= await this.$axios.get('http://localhost:3000/api/createtable');
+      console.log(res);
+    },
+    async deletetable(){
+      let res= await this.$axios.get('http://localhost:3000/api/deletetable');
       console.log(res);
     },
     async updatedata(){
