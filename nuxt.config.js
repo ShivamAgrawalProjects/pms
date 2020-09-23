@@ -77,6 +77,9 @@ export default {
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
+ serverMiddleware: ["~/api/index.js"],
+
   build: {
   }
 }
+
