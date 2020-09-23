@@ -46,11 +46,11 @@ app.get('/insertdata',(req, res) => {
     var tableService = azure.createTableService('projmgt','z5PY9Bq52vjFI8R52I0TjQBGt6VXaDahQ0gvlxQ8PZ9EBaSYYwcYh6l091EFc/9pnXiJw0Q2I3fiXml/DDjcPA==');
     var entGen = azure.TableUtilities.entityGenerator;
     var entity = {
-      PartitionKey: entGen.String('part2'),
-      RowKey: entGen.String('row1'),
+      PartitionKey: entGen.String('No2'),
+      RowKey: entGen.String('B'),
       boolValueTrue: entGen.Boolean(true),
       boolValueFalse: entGen.Boolean(true),
-      Age: entGen.Int32(200000),
+      Age: entGen.Int32(239),
       Date: entGen.DateTime(new Date(Date.UTC(2020, 10, 25))),
       complexDateValue: entGen.DateTime(new Date(Date.UTC(20000, 02, 16, 01, 46, 20)))
        };
