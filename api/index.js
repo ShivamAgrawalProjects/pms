@@ -46,16 +46,16 @@ app.get('/insertdata',(req, res) => {
     var tableService = azure.createTableService('projmgt','z5PY9Bq52vjFI8R52I0TjQBGt6VXaDahQ0gvlxQ8PZ9EBaSYYwcYh6l091EFc/9pnXiJw0Q2I3fiXml/DDjcPA==');
     var entGen = azure.TableUtilities.entityGenerator;
     var entity = {
-      PartitionKey: entGen.String('No2'),
-      RowKey: entGen.String('B'),
+      PartitionKey: entGen.String('part2'),
+      RowKey: entGen.String('row1'),
       boolValueTrue: entGen.Boolean(true),
-      boolValueFalse: entGen.Boolean(false),
-      Age: entGen.Int32(23990),
+      boolValueFalse: entGen.Boolean(true),
+      Age: entGen.Int32(23990234),
       Date: entGen.DateTime(new Date(Date.UTC(2020, 10, 25))),
       complexDateValue: entGen.DateTime(new Date(Date.UTC(2083, 02, 16, 01, 46, 20)))
        };
     
-    tableService.insertOrReplaceEntity('Shivam', entity, function(error, result, response) {
+    tableService.insertOrReplaceEntity('rashi', entity, function(error, result, response) {
       if (!error) {
         console.log(result)
         // result contains the entity with field 'taskDone' set to `true`

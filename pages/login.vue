@@ -151,7 +151,6 @@ span.show {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  user-select: none;
   visibility: hidden;
   font-family: 'Open Sans', sans-serif;
 }
