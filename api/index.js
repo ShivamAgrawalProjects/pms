@@ -20,6 +20,20 @@ app.get('/deletetable',(req, res) => {
   }
 });
 })
+app.get('/deletedata',(req, res) => {
+  var tableService = azure.createTableService('projmgt','z5PY9Bq52vjFI8R52I0TjQBGt6VXaDahQ0gvlxQ8PZ9EBaSYYwcYh6l091EFc/9pnXiJw0Q2I3fiXml/DDjcPA==');
+  var entGen = azure.TableUtilities.entityGenerator;
+  var entity = {
+    PartitionKey: entGen.String('No2'),
+    RowKey: entGen.String('A'),
+  };
+  tableService.deleteEntity('Shivam', entity,function(error, response) {
+    if (!error) {
+        console.log(response)
+    // result contains true if created; false if already exists
+  }
+});
+})
 app.get('/insertdata',(req, res) => {
     
     var tableService = azure.createTableService('projmgt','z5PY9Bq52vjFI8R52I0TjQBGt6VXaDahQ0gvlxQ8PZ9EBaSYYwcYh6l091EFc/9pnXiJw0Q2I3fiXml/DDjcPA==');
