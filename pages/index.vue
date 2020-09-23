@@ -5,6 +5,8 @@
    <button @click="deletedata()">Delete Data</button>
    <button @click="updatedata()">Update or Edit Data</button>
    <button @click="deletetable()">Delete Table</button>
+   <button @click="readtable()"> Read</button>
+   
 
   </div>
 </template>
@@ -33,6 +35,11 @@ export default {
     async insertdata(){
       let res= await this.$axios.get('http://localhost:3000/api/insertdata');
       console.log(res);
+    },
+    async readtable(){
+      let res= await this.$axios.get('http://localhost:3000/api/readtable');
+      console.log(res);
+      
     }
   }
 }
