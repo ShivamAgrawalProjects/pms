@@ -1,7 +1,12 @@
 <template>
 
+<<<<<<< HEAD
      <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
        <nuxt-link to="/sm/meeting"> <button type="button" class="btn btn-outline-secondary ">Previous</button></nuxt-link>
+=======
+
+    <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
+>>>>>>> 29e019486bcc631cb152bec28b9094176c6e36dd
        <!-- <a href="#">
         <i class="fa fa-link"></i>
         <span>Risk</span>
@@ -72,11 +77,11 @@ import Myform from '@/components/Myform.vue'
 </script>
 
 <style >
-.container1{
+ .container1{
   
   box-shadow: 500px 500px 5px lightgrey;
   padding:40px;
     text-align: center;
 
-}
+} 
 </style>

@@ -29,11 +29,11 @@ export const ProjRisk = [
 export const MOM = [
   // { t: "input", f: "PartitionKey", id: "PartitionKey", p: "PartitionKey", l: "PartitionKey" },
   // { t: "input", f: "RowKey", id: "RowKey", p: "RowKey", l: "RowKey" },
-  { t: "input", f: "momdiscuss", id: "momdiscuss", p: "Discuss", l: "Discuss" },
-  { t: "date", f: "sdate", id: "sdate", p: "StartDate", l: "StartDate"  },
-  { t: "date", f: "edate", id: "edate", p: "EndDate", l: "EndDate"  },
-  { t: "input", f: "momremark", id: "momremark", p: "Remark", l: "Remark"  },
-  { t: "input", f: "momdesc", id: "momdesc", p: "Description", l: "Description"  },
+  { t: "input", f: "momdiscuss", id: "momdiscuss", p: "Discuss", l: "Discuss",class: 'col-5' },
+  { t: "date", f: "sdate", id: "sdate", p: "StartDate", l: "StartDate",class: 'col-5'  },
+  { t: "date", f: "edate", id: "edate", p: "EndDate", l: "EndDate",class: 'col-5'  },
+  { t: "input", f: "momremark", id: "momremark", p: "Remark", l: "Remark" ,class: 'col-5' },
+  { t: "input", f: "momdesc", id: "momdesc", p: "Description", l: "Description",class: 'col-10'  },
   { t: "file", f: "momfile", id: "momfile", p: "momfile", l: "File"  }
  
 ]
