@@ -37,7 +37,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-     z-index: auto;
+     z-index: 9999;
 
 
 }

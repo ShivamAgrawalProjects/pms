@@ -1,22 +1,44 @@
 <template>
   <div>
+    <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
+       <div class="row">         <div class="col ">
+     
+      <nuxt-link to="/sm/dashboard"><button type="button" class="btn btn-outline-secondary">Previous</button> </nuxt-link>
+      </div>
+       </div>
+           <form>
+             
+  
 <Myform  :form="test"></Myform>
-  </div>
+
+     
+     </form>
+     </div>
+     </div>
+  
 </template>
 
 <script>
-import{ProjForm} from '../forms/backend.js'
+
+import{ProjForm} from '../formsss/form'
 import Myform from '@/components/Myform.vue'
   export default {
+     layout: 'scrummasterlayout',
     data(){
       return{
         test: ProjForm
       }
     }
   }
-</script> 
-<style>
+</script>
 
+<style >
+.container1{
+   box-shadow: 500px 500px 5px lightgrey;
+   padding:40px;
+     text-align: center;
+
+ } 
 </style>
 
 
