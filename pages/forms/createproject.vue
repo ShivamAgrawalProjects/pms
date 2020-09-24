@@ -9,7 +9,7 @@
            <form>
              
   
-<Myform  :form="test"></Myform>
+               <Myform  :form="test"></Myform>
 
      
      </form>

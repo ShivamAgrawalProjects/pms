@@ -1,5 +1,6 @@
 <template>
 
+
     <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
        <!-- <a href="#">
         <i class="fa fa-link"></i>
@@ -64,11 +65,11 @@
 </script>
 
 <style >
-.container1{
+ .container1{
   
   box-shadow: 500px 500px 5px lightgrey;
   padding:40px;
     text-align: center;
 
-}
+} 
 </style>
