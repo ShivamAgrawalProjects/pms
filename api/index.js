@@ -95,7 +95,9 @@ app.get('/insertdata',(req, res) => {
     
     tableService.insertOrReplaceEntity('rashi', entity, function(error, result, response) {
       if (!error) {
-        console.log(result)
+        console.log(res)
+        res.send(result),
+        res.render(result)
         // result contains the entity with field 'taskDone' set to `true`
       }
     });
