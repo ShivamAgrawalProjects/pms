@@ -2,7 +2,7 @@ export const ProjForm = [
     { t: "input", f: "PartitionKey", id: "PartitionKey", p: "PartitionKey", l: "PartitionKey" },
     { t: "input", f: "RowKey", id: "RowKey", p: "RowKey", l: "RowKey" },
     { t: "input", f: "pname", id: "pnmae", p: "Project Name", l: "pname" },
-    // { t: "dropdown", f: "ptype", id: "ptype", p: "Project Type", l: "ptype"  },
+    // { t: "dropdown", f: "ptype", id: "ptype", p: "Project Type", l: "ptype", "menu":["T1","T2","T3"]  },
     // { t: "dropdown", f:"powner", id: "powner", p: "powner", l: "powner", "menu":["T1","T2","T3"]  },
     { t: "input", f: "pdesc", id: "pdesc", p: "Description", l: "pdesc"  },
     { t: "file", f: "pfile", id: "pfile", p: "pfile", l: "File"  }
@@ -14,14 +14,14 @@ export const SchedMeeting = [
     { t: "input", f: "mreason", id: "mreason", p: "Reason", l: "Reason" },
     { t: "date", f: "mdate", id: "mdate", p: "Date", l: "Date"  },
     { t: "dropdown", f:"mtime", id: "mtime", p: "powner", l: "powner", "menu":["T1","T2","T3"]  },
-    { t: "dropdown", f: "sprint", id: "sprint", p: "Sprint", l: "Sprint"  },
+    { t: "dropdown", f: "sprint", id: "sprint", p: "Sprint", l: "Sprint","menu":["T1","T2","T3"]   },
     { t: "dropdown", f: "mduration", id: "mduration", p: "Duration", l: "Duration"  }
 ]
 export const ProjRisk = [
     { t: "input", f: "PartitionKey", id: "PartitionKey", p: "PartitionKey", l: "PartitionKey" },
     { t: "input", f: "RowKey", id: "RowKey", p: "RowKey", l: "RowKey" },
     { t: "input", f: "pname", id: "pnmae", p: "Project Name", l: "pname" },
-    { t: "dropdown", f: "ptype", id: "ptype", p: "Project Type", l: "ptype"  },
+    { t: "dropdown", f: "ptype", id: "ptype", p: "Project Type", l: "ptype","menu":["T1","T2","T3"]   },
     { t: "dropdown", f:"prisk", id: "prisk", p: "Risk", l: "Risk", "menu":["T1","T2","T3"]  },
     { t: "input", f: "prisk", id: "prisk", p: "Description", l: "Description"  },
     { t: "file", f: "pfile", id: "pfile", p: "pfile", l: "File"  }
