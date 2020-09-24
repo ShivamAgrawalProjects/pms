@@ -1,20 +1,21 @@
 <template>
 
-    <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
+     <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
+       <nuxt-link to="/sm/meeting"> <button type="button" class="btn btn-outline-secondary ">Previous</button></nuxt-link>
        <!-- <a href="#">
         <i class="fa fa-link"></i>
         <span>Risk</span>
       </a> -->
-      <nuxt-link to="/sm/meeting"> <button type="button" class="btn btn-outline-secondary ">Previous</button></nuxt-link>
           <form>
-             
-  <div class="form-row">
+             <Myform  :form="test"></Myform>
+          </form>
+  <!-- <div class="form-row">
     <div class="form-group col-md-8">
       <label for="inputCity">Reason</label>
       <input type="text" class="form-control" id="inputReason">
-    </div>
+    </div> --> 
     
-  </div>
+  <!-- </div>
 
   <div class="form-row">
     <div class="form-group col-md-4">
@@ -52,15 +53,22 @@
   </div>
   
   <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-    </div>
+</form>-->
+    </div> 
 </template>
 
 <script>
-    export default {
-        layout: 'scrummasterlayout',
-        
+import{SchedMeeting} from '../formsss/form'
+import Myform from '@/components/Myform.vue'
+
+     export default {
+     layout: 'scrummasterlayout',
+    data(){
+      return{
+        test: SchedMeeting
+      }
     }
+  }
 </script>
 
 <style >

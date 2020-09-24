@@ -7,8 +7,11 @@
       </a> -->
        <button type="button" class="btn btn-outline-secondary "><i class="fa fa-caret-left"></i>  Back</button>
           <form>
-             
-  <div class="form-row">
+            <Myform  :form="test"></Myform>
+
+            </form>
+             </div>
+  <!-- <div class="form-row">
     <div class="form-group col-md-8">
       <label for="inputCity">Task</label>
       <input type="text" class="form-control" id="inputReason">
@@ -84,14 +87,20 @@
   
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-    </div>
+    </div> -->
 </template>
 
 <script>
-    export default {
-        layout: 'scrummasterlayout',
-        
+import{ScrumBacklog} from '../formsss/form'
+import Myform from '@/components/Myform.vue'
+  export default {
+     layout: 'scrummasterlayout',
+    data(){
+      return{
+        test: ScrumBacklog
+      }
     }
+  }
 </script>
 
 <style >

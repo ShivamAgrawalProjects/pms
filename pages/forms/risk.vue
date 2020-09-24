@@ -3,11 +3,13 @@
     <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
         <nuxt-link to="" ><button type="button" class="btn btn-outline-secondary">Previous</button></nuxt-link>
           <form>
-             
-  <div class="form-row">
-    <div class="form-group col-md-4">
+             <Myform  :form="test"></Myform>
+          </form>
+    
+  <!-- <div class="form-row"> -->
+    <!-- <div class="form-group col-md-4"> -->
          
-         <label >Project Name:</label>
+         <!-- <label >Project Name:</label>
     <input type="text" class="form-control" id="Project Name" placeholder="Project Name"> 
       
     </div>
@@ -17,10 +19,10 @@
         <option selected>Choose...</option>
         <option>...</option>
       </select> 
-    </div>
+    </div> -->
     
     
-  </div>
+  <!-- </div>
   <div class="form-row">
     <div class="form-group col-md-4">
          
@@ -28,14 +30,14 @@
       <select id="RiskType" class="form-control">
         <option selected>Choose...</option>
         <option>...</option>
-      </select> 
+      </select>  -->
       
-    </div>
+    <!-- </div>
     
     
     
-  </div>
-      <div class="form-row">
+  </div> -->
+      <!-- <div class="form-row">
     <div class="form-group col-md-8">
     <label for="inputAddress">Description:</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Description">
@@ -50,15 +52,21 @@
   
   
   <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</form> -->
     </div>
 </template>
 
 <script>
+import{ProjRisk} from '../formsss/form'
+import Myform from '@/components/Myform.vue'
     export default {
-        layout: 'scrummasterlayout',
-        
+     layout: 'scrummasterlayout',
+    data(){
+      return{
+        test: ProjRisk
+      }
     }
+  }
 </script>
 
 <style >
