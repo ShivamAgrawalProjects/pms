@@ -33,7 +33,7 @@ const sellerForm = [
     {type:"number",id:"zipcode",label:"Zip Code",class:"col-6"},
     {type:"text",id:"country",label:"Country",class:"col-6"},
     {type:"text",id:"businesstype",label:"Type of Business",class:"col-12"}
-  
+
   ]
   
   const productEditForm = [

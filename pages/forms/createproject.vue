@@ -1,6 +1,9 @@
 <template>
+<div>
+  
+</div>
 
-    <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
+    <!-- <div class="container" style="background-color: #ffffff;width:80% ;margin:30px 20px 30px 260px">
       <div class="row">
         <div class="col ">
      <nuxt-link to="/sm/dashboard"><button type="button" class="btn btn-outline-secondary">Previous</button> </nuxt-link>
@@ -66,22 +69,22 @@
   
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-    </div>
+    </div> -->
 </template>
 
 <script>
     export default {
-        layout: 'scrummasterlayout',
+        // layout: 'scrummasterlayout',
         
     }
 </script>
 
 <style >
-.container1{
+/* .container1{
   
   box-shadow: 500px 500px 5px lightgrey;
   padding:40px;
     text-align: center;
 
-}
+} */
 </style>
