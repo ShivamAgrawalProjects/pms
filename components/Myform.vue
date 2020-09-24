@@ -6,7 +6,7 @@
       :key="i"
       :class="item.class"
     >
-      <label>{{ item.label }}</label>
+      <label>{{ item.l }} :</label>
       <input
         v-if="readOnly && formPreviewData"
         :type="item.type"

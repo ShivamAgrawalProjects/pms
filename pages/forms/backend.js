@@ -1,6 +1,6 @@
 export const ProjForm = [
-    { t: "input", f: "PartitionKey", id: "PartitionKey", p: "PartitionKey", l: "PartitionKey" },
-    { t: "input", f: "RowKey", id: "RowKey", p: "RowKey", l: "RowKey" },
+    // { t: "input", f: "PartitionKey", id: "PartitionKey", p: "PartitionKey", l: "PartitionKey" },
+    // { t: "input", f: "RowKey", id: "RowKey", p: "RowKey", l: "RowKey" },
     { t: "input", f: "pname", id: "pnmae", p: "Project Name", l: "pname" },
     // { t: "dropdown", f: "ptype", id: "ptype", p: "Project Type", l: "ptype", "menu":["T1","T2","T3"]  },
     // { t: "dropdown", f:"powner", id: "powner", p: "powner", l: "powner", "menu":["T1","T2","T3"]  },

@@ -13,7 +13,11 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style>
 
-
+.uppernavbar{
+position: sticky;
+top: 0;
+z-index: 9999;
+}
 </style>
